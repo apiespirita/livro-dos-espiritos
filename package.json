@@ -1,0 +1,21 @@
+{
+    "name": "livro-dos-espiritos",
+    "version": "1.0.0",
+    "description": "API Livro dos Espíritos - Perguntas e Respostas",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "espiritismo",
+        "livro dos espiritos"
+    ],
+    "author": "murillo-nadal",
+    "license": "FEB",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "engines": {
+        "node": "10.x"
+    }
+}
