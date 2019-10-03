@@ -10,7 +10,7 @@ server.listen(definePort());
 // Router
 app.get('/', function (request, response) {
     response.setHeader('Content-type', 'text/html');
-    response.end('Documentation');
+    response.sendFile('./index.html', {root: __dirname });
     response.status('200');
 });
 
