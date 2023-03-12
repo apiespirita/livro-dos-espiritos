@@ -6,6 +6,7 @@ var server = http.createServer(app);
 
 app.set('port', definePort());
 server.listen(definePort());
+console.log("Server listen on port "+definePort())
 
 // Router
 app.get('/', function (request, response) {
